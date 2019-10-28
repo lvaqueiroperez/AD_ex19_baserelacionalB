@@ -157,14 +157,14 @@ public class Ex19_baserelacionalB {
         try {
             obj.Conexion();
 
-//            obj.listarRS();
+            obj.listarRS();
 //            obj.actuRegistroRS("p2", 888);
 //            obj.listarRS();
 //            obj.insertarFilaRS("p66", "hola", 666);
 //            obj.listarRS();
 //
-//            obj.borrarFilaRS("p3");
-//            obj.listarRS();
+            obj.borrarFilaRS("p77");
+            obj.listarRS();
             obj.Cerrar();
         } catch (SQLException ex) {
             Logger.getLogger(Ex19_baserelacionalB.class.getName()).log(Level.SEVERE, null, ex);
